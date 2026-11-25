@@ -1,0 +1,15 @@
+{
+  "id": "animeav1",
+  "version": "1.0.0",
+  "version_code": 1,
+  "base_url": "https://animeav1.com",
+  "script_marker": "node_ids",
+  "patterns": {
+    "episodes": "\\{id:(\\d+),number:([0-9.]+)\\}",
+    "pair": "\\{server:\"([^\"]+)\",url:\"([^\"]+)\"\\}",
+    "embeds_sub": "embeds:\\{SUB:\\[(.*?)\\]",
+    "embeds_dub": "embeds:\\{DUB:\\[(.*?)\\]",
+    "downloads_sub": "downloads:\\{SUB:\\[(.*?)\\]",
+    "downloads_dub": "downloads:\\{DUB:\\[(.*?)\\]"
+  }
+}
